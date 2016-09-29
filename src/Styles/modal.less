@@ -1,0 +1,27 @@
+@import "./theme.less";
+
+#wps-ModalMixin {
+  .container() {
+    background: @background;
+    padding: 0;
+    border-top: 12px solid @primary-dark;
+  }
+  .header() {
+    background: @primary;
+    color: @primary-text;
+    padding: 12px;
+  }
+  .title() {
+    padding: 36px;
+  }
+  .body() {
+    background: @background;
+    color: @text-primary;
+    padding: 12px;
+  }
+  .footer() {
+    background: @primary;
+    color: @primary-text;
+    padding: 12px;
+  }
+}
